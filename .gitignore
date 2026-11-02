@@ -48,3 +48,4 @@ __pycache__
 /docs/source/_build
 
 ~$*
+/src/xlOil-Loader/xlOil-Loader.vcxproj.user
