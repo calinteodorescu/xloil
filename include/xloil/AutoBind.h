@@ -168,12 +168,12 @@ namespace xloil
 #define _XLO_NODEFAULTS_TEXT(z, n, text) text
 
 #define _XLO_BIND4(FUNC, NUM_ARGS, DEFAULTS, CONVERTERS) \
-    XLO_FUNC_START(FUNC##_XLOIL(XLO_DECLARE_ARGS(NUM_ARGS, arg)))\
+    XLO_FUNC_START(XLOIL_##FUNC(XLO_DECLARE_ARGS(NUM_ARGS, arg)))\
     { \
         auto defaults = DEFAULTS; \
         return ::xloil::AutoBind::detail::ConvertAndInvoke<CONVERTERS::Arg, CONVERTERS::Return, decltype(FUNC)>()( \
           FUNC, defaults, BOOST_PP_ENUM_SHIFTED_PARAMS(BOOST_PP_ADD(NUM_ARGS,1), arg)); \
-    } XLO_FUNC_END(FUNC##_XLOIL).name(XLO_WSTR(FUNC))
+    } XLO_FUNC_END(XLOIL_##FUNC).name(XLO_WSTR(FUNC))
 
 #define _XLO_BIND3(FUNC, NUM_ARGS, DEFAULTS) _XLO_BIND4(FUNC, NUM_ARGS, DEFAULTS, ::xloil::AutoBind::DefaultConverters)
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32819.101
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12315.225
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlOil", "src\xlOil\xlOil.vcxproj", "{DF88A189-295A-4AC8-BEFC-D199155EC8CB}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -14,7 +14,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlOil", "src\xlOil\xlOil.vc
 		{FD89F79E-FAD6-4BDF-B8B3-2028E8482ABF} = {FD89F79E-FAD6-4BDF-B8B3-2028E8482ABF}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[Scripts]", "[Scripts]", "{67EB80BB-D718-428C-80BD-E409C27FAD25}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{67EB80BB-D718-428C-80BD-E409C27FAD25}"
 	ProjectSection(SolutionItems) = preProject
 		tools\xlOil_Install.ps1 = tools\xlOil_Install.ps1
 		tools\xlOil_NewAddin.ps1 = tools\xlOil_NewAddin.ps1
@@ -133,6 +133,75 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{CCCC35
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlOil_Python314", "libs\xlOil_Python\xlOil_Python314.vcxproj", "{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Docs", "01 Docs", "{BAEEDF64-7080-4111-9FEF-9693F3C606ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{D5C4DE99-4431-403C-BD3E-A32C8F281DE2}"
+	ProjectSection(SolutionItems) = preProject
+		docs\source\xlOil_Python\BuiltInUDFs.rst = docs\source\xlOil_Python\BuiltInUDFs.rst
+		docs\source\xlOil_Python\Concepts.rst = docs\source\xlOil_Python\Concepts.rst
+		docs\source\xlOil_Python\CustomGUI.rst = docs\source\xlOil_Python\CustomGUI.rst
+		docs\source\xlOil_Python\Debugging.rst = docs\source\xlOil_Python\Debugging.rst
+		docs\source\xlOil_Python\DistributingAddins.rst = docs\source\xlOil_Python\DistributingAddins.rst
+		docs\source\xlOil_Python\Dynamic.rst = docs\source\xlOil_Python\Dynamic.rst
+		docs\source\xlOil_Python\Example.rst = docs\source\xlOil_Python\Example.rst
+		docs\source\xlOil_Python\ExampleGUI.rst = docs\source\xlOil_Python\ExampleGUI.rst
+		docs\source\xlOil_Python\ExampleRTD.rst = docs\source\xlOil_Python\ExampleRTD.rst
+		docs\source\xlOil_Python\ExcelApplication.rst = docs\source\xlOil_Python\ExcelApplication.rst
+		docs\source\xlOil_Python\ExternalPackages.rst = docs\source\xlOil_Python\ExternalPackages.rst
+		docs\source\xlOil_Python\FAQ.rst = docs\source\xlOil_Python\FAQ.rst
+		docs\source\xlOil_Python\Functions.rst = docs\source\xlOil_Python\Functions.rst
+		docs\source\xlOil_Python\GettingStarted.rst = docs\source\xlOil_Python\GettingStarted.rst
+		docs\source\xlOil_Python\index.rst = docs\source\xlOil_Python\index.rst
+		docs\source\xlOil_Python\Jupyter.rst = docs\source\xlOil_Python\Jupyter.rst
+		docs\source\xlOil_Python\ModuleReference.rst = docs\source\xlOil_Python\ModuleReference.rst
+		docs\source\xlOil_Python\Rtd.rst = docs\source\xlOil_Python\Rtd.rst
+		docs\source\xlOil_Python\TypeConversion.rst = docs\source\xlOil_Python\TypeConversion.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP", "CPP", "{D6DD5FA3-B69D-4FD2-B77C-A2F36DFD6780}"
+	ProjectSection(SolutionItems) = preProject
+		docs\source\xlOil_Cpp\COM.rst = docs\source\xlOil_Cpp\COM.rst
+		docs\source\xlOil_Cpp\CppRtd.rst = docs\source\xlOil_Cpp\CppRtd.rst
+		docs\source\xlOil_Cpp\CustomGUI.rst = docs\source\xlOil_Cpp\CustomGUI.rst
+		docs\source\xlOil_Cpp\DynamicRegistration.rst = docs\source\xlOil_Cpp\DynamicRegistration.rst
+		docs\source\xlOil_Cpp\Events.rst = docs\source\xlOil_Cpp\Events.rst
+		docs\source\xlOil_Cpp\GettingStarted.rst = docs\source\xlOil_Cpp\GettingStarted.rst
+		docs\source\xlOil_Cpp\index.rst = docs\source\xlOil_Cpp\index.rst
+		docs\source\xlOil_Cpp\ObjectHandles.rst = docs\source\xlOil_Cpp\ObjectHandles.rst
+		docs\source\xlOil_Cpp\SpecialArgs.rst = docs\source\xlOil_Cpp\SpecialArgs.rst
+		docs\source\xlOil_Cpp\StaticXLLs.rst = docs\source\xlOil_Cpp\StaticXLLs.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 General", "01 General", "{AEA9A214-808B-4C95-9ABA-EFB54F267903}"
+	ProjectSection(SolutionItems) = preProject
+		docs\source\Concepts.rst = docs\source\Concepts.rst
+		docs\source\Core.rst = docs\source\Core.rst
+		docs\source\Developer.rst = docs\source\Developer.rst
+		docs\source\Events.rst = docs\source\Events.rst
+		docs\source\index.rst = docs\source\index.rst
+		docs\source\Introduction.rst = docs\source\Introduction.rst
+		docs\source\xlOil_Core_Functions.rst = docs\source\xlOil_Core_Functions.rst
+		docs\source\xlOil_Utils.rst = docs\source\xlOil_Utils.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{37791446-C408-4133-B3A4-9387F6011AC3}"
+	ProjectSection(SolutionItems) = preProject
+		docs\source\xlOil_SQL\index.rst = docs\source\xlOil_SQL\index.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pycpp", "pycpp", "{111FACCE-C0E2-46D4-A7EB-786D6F382FF3}"
+	ProjectSection(SolutionItems) = preProject
+		external\pybind11\docs\advanced\pycpp\numpy.rst = external\pybind11\docs\advanced\pycpp\numpy.rst
+		external\pybind11\docs\advanced\pycpp\object.rst = external\pybind11\docs\advanced\pycpp\object.rst
+		external\pybind11\docs\advanced\pycpp\utilities.rst = external\pybind11\docs\advanced\pycpp\utilities.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pybind11", "pybind11", "{F4836578-E49C-481A-B5E1-2257655B8170}"
+	ProjectSection(SolutionItems) = preProject
+		external\pybind11\docs\advanced\pycpp\index.rst = external\pybind11\docs\advanced\pycpp\index.rst
+		external\pybind11\README.rst = external\pybind11\README.rst
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +798,12 @@ Global
 		{0D856EA8-A97D-45AC-84AF-68AECF67ED6F} = {70522729-EFAA-4F6D-8C6D-752676BF6752}
 		{0D856EA8-A97D-45AC-84AF-68A1CF67ED6F} = {70522729-EFAA-4F6D-8C6D-752676BF6752}
 		{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F} = {70522729-EFAA-4F6D-8C6D-752676BF6752}
+		{D5C4DE99-4431-403C-BD3E-A32C8F281DE2} = {BAEEDF64-7080-4111-9FEF-9693F3C606ED}
+		{D6DD5FA3-B69D-4FD2-B77C-A2F36DFD6780} = {BAEEDF64-7080-4111-9FEF-9693F3C606ED}
+		{AEA9A214-808B-4C95-9ABA-EFB54F267903} = {BAEEDF64-7080-4111-9FEF-9693F3C606ED}
+		{37791446-C408-4133-B3A4-9387F6011AC3} = {BAEEDF64-7080-4111-9FEF-9693F3C606ED}
+		{111FACCE-C0E2-46D4-A7EB-786D6F382FF3} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
+		{F4836578-E49C-481A-B5E1-2257655B8170} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C948047-E838-4EA3-AD64-392D149AD565}
