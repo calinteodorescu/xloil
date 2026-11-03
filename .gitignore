@@ -49,3 +49,4 @@ __pycache__
 
 ~$*
 /src/xlOil-Loader/xlOil-Loader.vcxproj.user
+/.contextkeeper/.git-branches
