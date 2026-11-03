@@ -207,6 +207,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{51
 		docs\source\xlOil_Python\ExampleRTD.rst = docs\source\xlOil_Python\ExampleRTD.rst
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Tests", "02 Tests", "{C0BD260C-5581-419A-AF2E-A002BD261239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFuncs", "SampleFuncs", "{F70C5D40-2095-4A02-A414-836A01A82B99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -809,6 +813,7 @@ Global
 		{111FACCE-C0E2-46D4-A7EB-786D6F382FF3} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 		{F4836578-E49C-481A-B5E1-2257655B8170} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 		{514CAC71-C58D-449D-A009-28C888D09031} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
+		{F70C5D40-2095-4A02-A414-836A01A82B99} = {C0BD260C-5581-419A-AF2E-A002BD261239}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C948047-E838-4EA3-AD64-392D149AD565}
