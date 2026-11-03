@@ -135,6 +135,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xlOil_Python314", "libs\xlOil_Python\xlOil_Python314.vcxproj", "{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Docs", "01 Docs", "{BAEEDF64-7080-4111-9FEF-9693F3C606ED}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Work\Git\Projects\Trading\Documents\Trading.Notes.yaml = ..\..\Work\Git\Projects\Trading\Documents\Trading.Notes.yaml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{D5C4DE99-4431-403C-BD3E-A32C8F281DE2}"
 	ProjectSection(SolutionItems) = preProject
