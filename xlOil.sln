@@ -144,9 +144,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{D5C4DE
 		docs\source\xlOil_Python\Debugging.rst = docs\source\xlOil_Python\Debugging.rst
 		docs\source\xlOil_Python\DistributingAddins.rst = docs\source\xlOil_Python\DistributingAddins.rst
 		docs\source\xlOil_Python\Dynamic.rst = docs\source\xlOil_Python\Dynamic.rst
-		docs\source\xlOil_Python\Example.rst = docs\source\xlOil_Python\Example.rst
-		docs\source\xlOil_Python\ExampleGUI.rst = docs\source\xlOil_Python\ExampleGUI.rst
-		docs\source\xlOil_Python\ExampleRTD.rst = docs\source\xlOil_Python\ExampleRTD.rst
 		docs\source\xlOil_Python\ExcelApplication.rst = docs\source\xlOil_Python\ExcelApplication.rst
 		docs\source\xlOil_Python\ExternalPackages.rst = docs\source\xlOil_Python\ExternalPackages.rst
 		docs\source\xlOil_Python\FAQ.rst = docs\source\xlOil_Python\FAQ.rst
@@ -201,6 +198,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pybind11", "pybind11", "{F4
 	ProjectSection(SolutionItems) = preProject
 		external\pybind11\docs\advanced\pycpp\index.rst = external\pybind11\docs\advanced\pycpp\index.rst
 		external\pybind11\README.rst = external\pybind11\README.rst
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{514CAC71-C58D-449D-A009-28C888D09031}"
+	ProjectSection(SolutionItems) = preProject
+		docs\source\xlOil_Python\Example.rst = docs\source\xlOil_Python\Example.rst
+		docs\source\xlOil_Python\ExampleGUI.rst = docs\source\xlOil_Python\ExampleGUI.rst
+		docs\source\xlOil_Python\ExampleRTD.rst = docs\source\xlOil_Python\ExampleRTD.rst
 	EndProjectSection
 EndProject
 Global
@@ -804,6 +808,7 @@ Global
 		{37791446-C408-4133-B3A4-9387F6011AC3} = {BAEEDF64-7080-4111-9FEF-9693F3C606ED}
 		{111FACCE-C0E2-46D4-A7EB-786D6F382FF3} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 		{F4836578-E49C-481A-B5E1-2257655B8170} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
+		{514CAC71-C58D-449D-A009-28C888D09031} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C948047-E838-4EA3-AD64-392D149AD565}
