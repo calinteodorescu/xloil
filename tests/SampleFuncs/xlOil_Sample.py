@@ -1,5 +1,10 @@
 import xloil as xlo
 
+import debugpy
+debugpy.listen(("localhost", 5678))
+# Optional: uncomment the next line if you want Excel to wait until VS Code attaches
+# debugpy.wait_for_client()
+
 try:
     xlo.log.debug(f"##### trying to import SampleFuncs")
     import SampleFuncs
