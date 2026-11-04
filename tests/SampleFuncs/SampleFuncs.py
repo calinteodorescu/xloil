@@ -40,10 +40,13 @@ def LogPrices(prices: xlo.Array(float)) -> xlo.Array(float):
     arr = np.asarray(prices, dtype=float)
     return np.log(arr)
 
-# Optional: pandas example (requires pandas + xloil.pandas imported)
-# import xloil.pandas
-# @xlo.func
-# def DescribePrices(prices: xlo.Array(float)):
-#     import pandas as pd
-#     s = pd.Series(np.asarray(prices).flatten())
-#     return s.describe()
+@xlo.func
+def EnvInfo():
+    """Returns the Python executable and whether pandas can be imported."""
+    import sys
+    try:
+        import pandas as pd
+        pandas_ver = pd.__version__
+    except Exception as e:
+        pandas_ver = f"FAILED: {type(e).__name__}: {e}"
+    return f"exe={sys.executable} | pandas={pandas_ver}"
