@@ -224,6 +224,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFuncs", "SampleFuncs"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xlOil", "xlOil", "{B96118C2-4E91-4FFB-A299-25AE3ABBA06B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "scripts", "..\..\Work\Git\Market.Correlation.Lab.mine\scripts\scripts.pyproj", "{B94A874B-9B08-490C-A0B4-21417EBEE4C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -797,6 +799,21 @@ Global
 		{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F}.ReleaseStatic|Any CPU.Build.0 = Release|x64
 		{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F}.ReleaseStatic|Win32.ActiveCfg = Release|Win32
 		{0D856EA8-A97D-45AC-84AF-A8A1CF67E36F}.ReleaseStatic|x64.ActiveCfg = Release|x64
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugCICD|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugCICD|Win32.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugCICD|x64.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugStatic|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugStatic|Win32.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.DebugStatic|x64.ActiveCfg = Debug|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Release|Win32.ActiveCfg = Release|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.Release|x64.ActiveCfg = Release|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.ReleaseStatic|Any CPU.ActiveCfg = Release|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.ReleaseStatic|Win32.ActiveCfg = Release|Any CPU
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3}.ReleaseStatic|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -828,6 +845,7 @@ Global
 		{514CAC71-C58D-449D-A009-28C888D09031} = {D5C4DE99-4431-403C-BD3E-A32C8F281DE2}
 		{F70C5D40-2095-4A02-A414-836A01A82B99} = {B96118C2-4E91-4FFB-A299-25AE3ABBA06B}
 		{B96118C2-4E91-4FFB-A299-25AE3ABBA06B} = {C0BD260C-5581-419A-AF2E-A002BD261239}
+		{B94A874B-9B08-490C-A0B4-21417EBEE4C3} = {C0BD260C-5581-419A-AF2E-A002BD261239}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C948047-E838-4EA3-AD64-392D149AD565}
