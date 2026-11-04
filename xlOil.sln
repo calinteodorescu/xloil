@@ -217,6 +217,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFuncs", "SampleFuncs"
 		tests\SampleFuncs\SampleFuncs.py = tests\SampleFuncs\SampleFuncs.py
 		config\xlOil.2026-11-03.ini = config\xlOil.2026-11-03.ini
 		C:\Users\Calin Teodorescu\AppData\Roaming\xlOil\xlOil.ini = C:\Users\Calin Teodorescu\AppData\Roaming\xlOil\xlOil.ini
+		tests\SampleFuncs\xlOil_Sample.py = tests\SampleFuncs\xlOil_Sample.py
 		tests\SampleFuncs\xlOil_Sample.xlsx = tests\SampleFuncs\xlOil_Sample.xlsx
 	EndProjectSection
 EndProject
